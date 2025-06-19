@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='backdrop-blur-1xl mt-10 ml-10 overflow-x-hidden text-amber-50 h-1-24 w-screen font-playfiar'>
         <div className='m-12 text-7xl tracking-tighter'>
-            Vaishanv
+            Vaishnav
             <div className='ml-2 text-2xl w-50 tracking-widest'>Developer</div>
         </div>
         
