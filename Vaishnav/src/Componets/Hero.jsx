@@ -1,6 +1,6 @@
 import React from 'react'
 import { HouseSimple,Info,AppWindow} from "@phosphor-icons/react";
-import { BrowserRouter,Routes,Route,Link} from 'react-router-dom';
+
 const Hero = () => {
   return (
     <div className='backdrop-blur-1xl mt-10 ml-10 overflow-x-hidden text-amber-50 h-1-24 w-screen font-playfiar'>
