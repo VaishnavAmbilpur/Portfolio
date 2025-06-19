@@ -1,0 +1,18 @@
+@font-face {
+  font-family: playfair;
+  src: url("../src/assets/Fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: geo;
+  src: url("../src/assets/Fonts/Geologica/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf");
+}
+@font-face {
+  font-family: Bu;
+  src: url("../src/assets/Fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+@import "tailwindcss";
+@theme{
+  --font-playfiar : playfair,"sans-serif";
+   --font-geo : geo,"sans-serif";
+    --font-Bu : Bu,"sans-serif";
+}
