@@ -1,0 +1,19 @@
+.animate.gradient {
+  background: linear-gradient(220deg, black, white, black);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-move 5s ease-in-out infinite;
+  font-weight: bolder;
+}
+
+@keyframes gradient-move {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
