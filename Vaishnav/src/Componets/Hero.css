@@ -17,3 +17,34 @@
     background-position: 100% 50%;
   }
 }
+
+.shine-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-effect::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255,255,255,0) 60%, rgba(255,255,255,0.5) 80%, rgba(255,255,255,0) 100%);
+  transform: translateX(-100%) rotate(25deg);
+  transition: transform 0.5s cubic-bezier(.4,2.3,.3,1);
+  pointer-events: none;
+}
+
+.shine-effect:hover::after {
+  transform: translateX(100%) rotate(25deg);
+}
+
+.theme-hover {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.theme-hover:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 12px 2px #ffffff, 0 0 2px 1px #fff2;
+  /* #fbbf24 is amber-400, adjust for your accent color */
+}

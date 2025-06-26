@@ -12,12 +12,12 @@ let targets = gsap.utils.toArray(".ball");
 
 window.addEventListener("mousemove", e => {
   gsap.to(targets, {
-    duration: 0.15,
+    duration: 0.09,
     x: e.pageX,
     y: e.pageY,
     ease: "none",
     overwrite: "auto",
-    stagger: 0.035,
+    stagger: 0.005,
   });
 });
   },[])

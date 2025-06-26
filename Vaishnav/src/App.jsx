@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Loader from './Componets/Loader';
-import AnimatedBackground from './Componets/Background';
+
 import SmoothFollower from './Componets/Fluid';
 import Hero from './Componets/Hero';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Skills from './Pages/Skills';
+import Projects from './Pages/Projects';
+import AnimatedBackground from './Componets/Background1';
 function CodeforcesRedirect() {
   useEffect(() => {
     window.open("https://codeforces.com/profile/DexterMorgan11", "_blank", "noopener,noreferrer");
@@ -13,7 +15,7 @@ function CodeforcesRedirect() {
   return <div>Redirecting to Codeforces...</div>;
 }
 
-function MainContent({ showLoader }) {
+function MainContent({ showLoader,children}) {
   return (
     <div className="relative">
       {showLoader ? (
@@ -24,7 +26,7 @@ function MainContent({ showLoader }) {
         <main className="relative overflow-x-hidden min-h-screen w-full bg-zinc-950">
           <AnimatedBackground />
           <div className="relative overflow-x-hidden z-10">
-            <Hero />
+            {children} {/* Each page handles its own background */}
           </div>
           <SmoothFollower />
         </main>
@@ -47,9 +49,10 @@ function MyComponent() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainContent showLoader={showLoader} />} />
+        <Route path="/" element={<MainContent showLoader={showLoader}><Hero /></MainContent>} />
         <Route path="/codeforces" element={<CodeforcesRedirect />} />
-        
+        <Route path="/TechStack" element={<MainContent showLoader={showLoader}><Skills /></MainContent>} />
+        <Route path="/Projects" element={<MainContent showLoader={showLoader}><Projects /></MainContent>} />
       </Routes>
     </BrowserRouter>
   );
