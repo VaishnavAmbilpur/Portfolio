@@ -61,7 +61,7 @@ const Projects = () => {
      })
   },[])
   return (
-    <div className='backdrop-blur-1xl m-1 p-3 overflow-x-hidden text-white h-1-24 w-screen font-playfiar items-start md:mx-10  md:pl-25'>
+    <div className='backdrop-blur-1xl my-10 p-3 overflow-x-hidden text-white h-1-24 w-screen font-playfiar items-start md:mx-10  md:pl-25'>
         <div className='m-7 text-5xl  md:text-7xl tracking-widest'>
            <span className='min-h-fit min-w-fit animate gradient'><span className=''>Vaishnav</span></span>
             
