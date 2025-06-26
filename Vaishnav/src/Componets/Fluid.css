@@ -1,0 +1,12 @@
+.ball {
+  width: 19px;
+  height: 19px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+/*   border: 3px solid dodgerblue; */
+  background-color: rgb(211, 196, 196);
+  border-radius: 100%;
+  pointer-events: none;
+}
