@@ -83,9 +83,9 @@ const Skills = () => {
         
         <div className="md:flex flex-row " id='h'>
            <div className='flex mt-0 mx-8 md:mt-4'><div className="text-red-50 flex flex-row gap-8 mt-5 md:flex-col">
-              <div className='flex gap-1 items-center'><Link to="/"><HouseSimple size={`19`} weight="thin" /></Link><span>Home</span></div>
-              <div className='flex gap-1 items-center'><Link to="/TechStack"><Info size={19} weight="thin" /></Link><span>Info</span></div>
-              <div className='flex gap-1 items-center'><Link to="/Projects"><AppWindow size={19} weight="thin" /></Link><span>Projects</span></div>
+              <div className='flex gap-1 theme-hover p-2 rounded-lg items-center'><Link to="/"><HouseSimple size={`19`} weight="thin" /></Link><span>Home</span></div>
+              <div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><Link to="/TechStack"><Info size={19} weight="thin" /></Link><span>Info</span></div>
+              <div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><Link to="/Projects"><AppWindow size={19} weight="thin" /></Link><span>Projects</span></div>
            </div>
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>
@@ -94,20 +94,20 @@ const Skills = () => {
                             </span></span>
                                 
                                   <div className='min-h-fit w-80 mx-3 md:min-200 grid grid-cols-4 md:flex flex-row gap-4 items-center '>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><FaNodeJs size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><FaCss3Alt size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><FaHtml5 size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><RiTailwindCssFill size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><SiCplusplus size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><SiPostman size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><IoLogoJavascript size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><FaReact size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><SiMongodb size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><SiVercel size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><SiRender size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><RiGithubLine size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><SiExpress size={28}/></button>
-                                    <button className='theme-hover p-2 rounded-lg transition-all'><FaGit size={28}/></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaNodeJs size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaCss3Alt size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaHtml5 size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><RiTailwindCssFill size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiCplusplus size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiPostman size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><IoLogoJavascript size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaReact size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiMongodb size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiVercel size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiRender size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><RiGithubLine size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiExpress size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaGit size={28}/></span></button>
                                   </div>
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
                             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
