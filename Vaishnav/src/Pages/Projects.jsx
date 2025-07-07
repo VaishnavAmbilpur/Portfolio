@@ -71,9 +71,9 @@ const Projects = () => {
         
         <div className="md:flex flex-row " id='h'>
            <div className='flex mt-0 mx-8 md:mt-4'><div className="text-red-50 flex flex-row gap-8 mt-5 md:flex-col">
-              <div className='flex gap-1 theme-hover p-2 rounded-lg items-center'><Link to="/"><HouseSimple size={`19`} weight="thin" /></Link><span>Home</span></div>
-              <div className='flex gap-1 p-2 rounded-lg theme-hover items-center'><Link to="/TechStack"><Info size={19} weight="thin" /></Link><span>Info</span></div>
-              <div className='flex gap-1 p-2 rounded-lg items-center theme-hover'><Link to="/Projects"><AppWindow size={19} weight="thin" /></Link><span>Projects</span></div>
+             <Link to="/"> <div className='flex gap-1 theme-hover p-2 rounded-lg items-center'><HouseSimple size={`19`} weight="thin" /><span>Home</span></div></Link>
+              <Link to="/TechStack"><div className='flex gap-1 p-2 rounded-lg theme-hover items-center'><Info size={19} weight="thin" /><span>Info</span></div></Link>
+              <Link to="/Projects"><div className='flex gap-1 p-2 rounded-lg items-center theme-hover'><AppWindow size={19} weight="thin" /><span>Projects</span></div></Link>
            </div>
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>

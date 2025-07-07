@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Loader from './Componets/Loader';
-
 import SmoothFollower from './Componets/Fluid';
 import Hero from './Componets/Hero';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -25,9 +24,11 @@ function MainContent({ showLoader,children}) {
       ) : (
         <main className="relative overflow-x-hidden min-h-screen w-full bg-zinc-950">
           <AnimatedBackground />
-          <div className="relative overflow-x-hidden z-10">
+      
+       <div className="relative overflow-x-hidden z-10">
             {children} {/* Each page handles its own background */}
           </div>
+
           <SmoothFollower />
         </main>
       )}

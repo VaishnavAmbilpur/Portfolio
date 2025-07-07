@@ -74,14 +74,15 @@ const Hero = () => {
             <div className='font-sans font-extralight m-2 text-sm w-fit tracking-widest transition delay-100 duration-300 md:text-sm text-red-50'>
               Developer & Problem Solver
             </div>
+            <div></div>
           </div>
         </div>
         <div className="md:flex flex-row " id='h'>
           <div className='flex mt-0 mx-8 md:mt-4'>
             <div className="text-red-50 flex flex-row gap-8 mt-5 md:flex-col">
-              <div className='flex gap-1 p-2 rounded-lg theme-hover items-center'><Link to="/"><HouseSimple size={19} weight="thin" /></Link><span>Home</span></div>
-              <div className='flex gap-1  p-2 rounded-lg theme-hover items-center'><Link to="/TechStack"><Info size={19} weight="thin" /></Link><span>Info</span></div>
-              <div className='flex gap-1  p-2 rounded-lg theme-hover items-center'><Link to="/Projects"><AppWindow size={19} weight="thin" /></Link><span>Projects</span></div>
+              <Link to="/"><div className='flex gap-1 p-2 rounded-lg theme-hover items-center'><HouseSimple size={19} weight="thin" /><span>Home</span></div></Link>
+              <Link to="/TechStack"><div className='flex gap-1  p-2 rounded-lg theme-hover items-center'><Info size={19} weight="thin" /><span>Info</span></div></Link>
+              <Link to="/Projects"><div className='flex gap-1  p-2 rounded-lg theme-hover items-center'><AppWindow size={19} weight="thin" /><span>Projects</span></div></Link>
             </div>
           </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250 gap-4 md:mt-3 md:mx-30 text-red-50'>
@@ -90,9 +91,9 @@ const Hero = () => {
             </span></span>
             <div className='min-h-fit w-80 mx-3 md:min-200 flex flex-row gap-4 items-center '>
               <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><SiCodeforces size={22} /></Link></button>
-              <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><SiLeetcode size={22} /></Link></button>
-              <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><FiGithub size={22} /></Link></button>
-              <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><SiGoogledocs size={22} /></Link></button>
+              <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://leetcode.com/u/Vaishnav_Ambilpur/' target='blank'><SiLeetcode size={22} /></a></button>
+              <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://github.com/VaishnavAmbilpur'><FiGithub size={22} /></a></button>
+              <button className='p-2 theme-hover rounded-lg transition-all flex justify-between gap-1'><SiGoogledocs size={22} />Resume</button>
             </div>
             <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>
             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
