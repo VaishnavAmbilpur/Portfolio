@@ -98,7 +98,7 @@ const Hero = () => {
             <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>
             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
               <div className='my-3 font-extrabold font-geo md:text-xl'>Connect with Me</div>
-              <a href="mailto:vaishnavambilpur2006@gmail.com" className='font-sans font-extralight'>vaishnavambilpur2006@gmail.com</a>
+              <a className='font-sans font-extralight'>vaishnavambilpur2006@gmail.com</a>
             </div>
           </div>
         </div>

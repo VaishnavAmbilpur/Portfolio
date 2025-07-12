@@ -84,7 +84,7 @@ const Skills = () => {
         <div className="md:flex flex-row " id='h'>
            <div className='flex mt-0 mx-8 md:mt-4'><div className="text-red-50 flex flex-row gap-8 mt-5 md:flex-col">
               <Link to="/"><div className='flex gap-1 theme-hover p-2 rounded-lg items-center'><HouseSimple size={`19`} weight="thin" /><span>Home</span></div></Link>
-              <Link to="/TechStack"><div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><Info size={19} weight="thin" /><span>Info</span></div></Link>
+              <Link to="/TechStack">   <div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><Info size={19} weight="thin" /><span>Info</span></div></Link>
               <Link to="/Projects"><div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><AppWindow size={19} weight="thin" /><span>Projects</span></div></Link>
            </div>
         </div>
@@ -112,7 +112,7 @@ const Skills = () => {
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
                             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
                               <div className='my-3 font-extrabold font-geo md:text-xl'>Connect with Me</div>
-                              <a href="vaishnavambilpur2006@gmail.com" className='font-sans font-extralight'>vaishnavambilpur2006@gmail.com</a>
+                              <a className='font-sans font-extralight'>vaishnavambilpur2006@gmail.com</a>
                             </div>
            </div>
      
