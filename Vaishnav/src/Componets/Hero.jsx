@@ -71,7 +71,7 @@ const Hero = () => {
             <span className=''>Vaishnav</span>
           </span>
           <div className='me'>
-            <div className='font-sans font-extralight m-2 text-sm w-fit tracking-widest transition delay-100 duration-300 md:text-sm text-red-50'>
+            <div className='font-sans font-extrabold m-2 text-sm  w-fit tracking-widest transition delay-50 duration-300  md:text-sm text-red-50 hover:translate-x-1  transition-normal'>
               Developer & Problem Solver
             </div>
             <div></div>
