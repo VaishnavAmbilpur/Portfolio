@@ -11,7 +11,8 @@ import { SiGoogledocs } from "react-icons/si";
     import ProjectHolder from '../Componets/ProjectHolder';
     import  skyPre from "../assets/Sky.png"
     import RgsGame from "../assets/RPS Game.png"
-
+    import Thinkbold from "../assets/Thinkbold.png"
+    import { LinkedinLogoIcon } from '@phosphor-icons/react';
 const Projects = () => {
     
   useGSAP(()=>{
@@ -81,7 +82,7 @@ const Projects = () => {
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Projects</span></span>
-<span className='con flex flex-row justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
+<span className='con flex flex-row justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
   title="Sky"
   description="A clean, user-friendly React-based weather app using OpenWeatherMap API to display real-time forecasts."
   imageUrl={skyPre}
@@ -89,17 +90,28 @@ const Projects = () => {
   demoUrl="https://weather-app-seven-topaz-95.vercel.app/"
   codeUrl="https://github.com/VaishnavAmbilpur/Weather-App"
 /></span>
-<span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
+<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
   title="Rock Paper Scissor"  
   description="A classic Rock-Paper-scissors game built with pure HTML, CSS, and JavaScript for lightweight, fast-paced fun"
   imageUrl={RgsGame}
   tags={["HTML", "CSS", "JS"]}
+  demoUrl="https://thinkbold.onrender.com/"
+  codeUrl="https://github.com/VaishnavAmbilpur/Thinkbold"
+/></span>
+<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
+  title="Thinkbold"  
+  description="A simple, efficient notepad app built with the MERN stack for seamless note-taking."
+  imageUrl={Thinkbold}
+  tags={["React", "Express", "Node.js","Mongodb"]}
   demoUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
   codeUrl="https://github.com/VaishnavAmbilpur/Rock-Paper-scissors-"
 /></span></span>
+
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
                             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
-                              <div className='my-3 font-extrabold font-geo md:text-xl'>Connect with Me</div>
+                            <div className='my-3 font-extrabold font-geo md:text-xl flex gap-x-3 items-center '>Connect with Me
+                              <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://www.linkedin.com/in/vaishnav-ambilpur-005a2a304/?originalSubdomain=in' target='blank'><LinkedinLogoIcon size={24} /></a></button>
+              </div>
                               <a className='font-sans font-extralight'>vaishnavambilpur2006@gmail.com</a>
                             </div>
            </div>

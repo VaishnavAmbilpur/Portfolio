@@ -21,6 +21,7 @@ import { SiCplusplus } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaGit } from "react-icons/fa";
     import { Link } from "react-router-dom";
+    import { LinkedinLogoIcon } from '@phosphor-icons/react';
     import "../Componets/Hero.css"
 const Skills = () => {
   useGSAP(()=>{
@@ -111,7 +112,9 @@ const Skills = () => {
                                   </div>
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
                             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
-                              <div className='my-3 font-extrabold font-geo md:text-xl'>Connect with Me</div>
+                             <div className='my-3 font-extrabold font-geo md:text-xl flex gap-x-3 items-center '>Connect with Me
+                              <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://www.linkedin.com/in/vaishnav-ambilpur-005a2a304/?originalSubdomain=in' target='blank'><LinkedinLogoIcon size={24} /></a></button>
+              </div>
                               <a className='font-sans font-extralight'>vaishnavambilpur2006@gmail.com</a>
                             </div>
            </div>
