@@ -91,7 +91,7 @@ const Skills = () => {
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-3xl mb-7'>Skills</span></span>
-                            <span className='con m-1 flex justify-start'><span className='p-2 text-left md:text-xl w-200 tracking-wide leading-8'>Passionate Full Stack Developer mastering web technologies and creating dynamic websites with GSAP animations. Blending code & creativity for seamless, engaging user experiences
+                            <span className='con m-1 flex justify-start'><span className='p-2 text-left md:text-xl w-200 tracking-wide leading-8'>I build web apps using HTML, CSS, JavaScript, React, Tailwind CSS for frontend, Node.js, Express, MongoDB for backend, and use Postman, Git/GitHub, Vercel for testing, version control, and deployment. For Competative Programming, I work with C/C++
                             </span></span>
                                 
                                   <div className='min-h-fit w-80 mx-3 md:min-200 grid grid-cols-4 md:flex flex-row gap-4 items-center '>
