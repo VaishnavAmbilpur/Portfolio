@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectHolder = ({ title, description, imageUrl, tags, demoUrl, codeUrl }) => {
+const ProjectHolder = ({ title, description, imageUrl, tags, LiveUrl, codeUrl }) => {
   return (
     <div className="bg-zinc-950 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex flex-col h-full w-full max-w-xs">
       {/* Project Image - Smaller */}
@@ -30,17 +30,17 @@ const ProjectHolder = ({ title, description, imageUrl, tags, demoUrl, codeUrl })
         </div>
 
         {/* Links - Smaller buttons */}
-        <div className="flex space-x-2 mt-auto">
-          {demoUrl && (
+        <div className="flex flex-row space-x-2 mt-auto">
+          {LiveUrl && (
             <a
-              href={demoUrl}
+              href={LiveUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="px-3 py-1.5 bg-blue-zinc hover:bg-zinc-700 text-white text-sm rounded-md transition-colors"
             >
               Demo
             </a>
-          )}
+          )}  
           {codeUrl && (
             <a
               href={codeUrl}
