@@ -85,7 +85,7 @@ const Projects = () => {
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Projects</span></span>
 <span className='con grid grid-cols-1 sm:grid-cols-3  justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
   title="Sky"
-  description="A clean, user-friendly React-based weather app using OpenWeatherMap API
+  description="A clean, user-friendly React-based weather app using OpenWeatherMap API "
   imageUrl={skyPre}
   tags={["React", "Node.js", "OpenWeather API", "Tailwind CSS","Typescript"]}
   LiveUrl="https://weather-app-seven-topaz-95.vercel.app/"
