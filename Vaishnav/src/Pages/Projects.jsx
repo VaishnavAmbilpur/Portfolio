@@ -82,7 +82,7 @@ const Projects = () => {
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Projects</span></span>
-<span className='con flex flex-row justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
+<span className='con flex flex-row flex-wrap justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
   title="Sky"
   description="A clean, user-friendly React-based weather app using OpenWeatherMap API to display real-time forecasts."
   imageUrl={skyPre}
