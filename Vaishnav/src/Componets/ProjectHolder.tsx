@@ -38,7 +38,7 @@ const ProjectHolder = ({ title, description, imageUrl, tags, LiveUrl, codeUrl })
               rel="noopener noreferrer"
               className="px-3 py-1.5 bg-blue-zinc hover:bg-zinc-700 text-white text-sm rounded-md transition-colors"
             >
-              Demo
+              LiveUrl
             </a>
           )}  
           {codeUrl && (
