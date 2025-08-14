@@ -85,7 +85,7 @@ const Projects = () => {
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Projects</span></span>
 <span className='con grid grid-cols-1 sm:grid-cols-3  justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
   title="Sky"
-  description="A clean, user-friendly React-based weather app using OpenWeatherMap API to display real-time forecasts."
+  description="A clean, user-friendly React-based weather app using OpenWeatherMap API
   imageUrl={skyPre}
   tags={["React", "Node.js", "OpenWeather API", "Tailwind CSS","Typescript"]}
   LiveUrl="https://weather-app-seven-topaz-95.vercel.app/"
@@ -93,7 +93,7 @@ const Projects = () => {
 /></span>
 <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
   title="Rock Paper Scissor"  
-  description="A classic Rock-Paper-scissors game built with pure HTML, CSS, and JavaScript for lightweight, fast-paced fun"
+  description="A classic Rock-Paper-scissors game built with pure HTML, CSS, and JavaScript."
   imageUrl={RgsGame}
   tags={["HTML", "CSS", "JS"]}
   LiveUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
