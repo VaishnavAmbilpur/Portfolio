@@ -96,16 +96,16 @@ const Projects = () => {
   description="A classic Rock-Paper-scissors game built with pure HTML, CSS, and JavaScript for lightweight, fast-paced fun"
   imageUrl={RgsGame}
   tags={["HTML", "CSS", "JS"]}
-  LiveUrl="https://thinkbold.onrender.com/"
-  codeUrl="https://github.com/VaishnavAmbilpur/Thinkbold"
+  LiveUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
+  codeUrl="https://github.com/VaishnavAmbilpur/Rock-Paper-scissors-"
 /></span>
 <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
   title="Thinkbold"  
   description="A simple, efficient notepad app built with the MERN stack for seamless note-taking."
   imageUrl={Thinkbold}
   tags={["React", "Express", "Node.js","Mongodb"]}
-  LiveUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
-  codeUrl="https://github.com/VaishnavAmbilpur/Chatty"
+  LiveUrl="https://thinkbold.onrender.com/ "
+  codeUrl="https://github.com/VaishnavAmbilpur/Thinkbold"
 /></span>
 <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
   title="Chatty"  
@@ -113,7 +113,7 @@ const Projects = () => {
   imageUrl={Chatty}
   tags={["React", "Node.js","Typescript","Websocket", "Tailwind CSS"]}
   LiveUrl="https://chatty-psi-two.vercel.app/"
-  codeUrl="https://github.com/VaishnavAmbilpur/Rock-Paper-scissors-"
+  codeUrl="https://github.com/VaishnavAmbilpur/Chatty "
 /></span></span>
 
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
