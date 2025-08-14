@@ -13,6 +13,7 @@ import { SiGoogledocs } from "react-icons/si";
     import RgsGame from "../assets/RPS Game.png"
     import Thinkbold from "../assets/Thinkbold.png"
     import { LinkedinLogoIcon } from '@phosphor-icons/react';
+    import Chatty from '../assets/Chatty.png'
 const Projects = () => {
     
   useGSAP(()=>{
@@ -86,8 +87,8 @@ const Projects = () => {
   title="Sky"
   description="A clean, user-friendly React-based weather app using OpenWeatherMap API to display real-time forecasts."
   imageUrl={skyPre}
-  tags={["React", "Node.js", "OpenWeather API", "Tailwind CSS"]}
-  demoUrl="https://weather-app-seven-topaz-95.vercel.app/"
+  tags={["React", "Node.js", "OpenWeather API", "Tailwind CSS","Typescript"]}
+  LiveUrl="https://weather-app-seven-topaz-95.vercel.app/"
   codeUrl="https://github.com/VaishnavAmbilpur/Weather-App"
 /></span>
 <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
@@ -95,7 +96,7 @@ const Projects = () => {
   description="A classic Rock-Paper-scissors game built with pure HTML, CSS, and JavaScript for lightweight, fast-paced fun"
   imageUrl={RgsGame}
   tags={["HTML", "CSS", "JS"]}
-  demoUrl="https://thinkbold.onrender.com/"
+  LiveUrl="https://thinkbold.onrender.com/"
   codeUrl="https://github.com/VaishnavAmbilpur/Thinkbold"
 /></span>
 <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
@@ -103,7 +104,15 @@ const Projects = () => {
   description="A simple, efficient notepad app built with the MERN stack for seamless note-taking."
   imageUrl={Thinkbold}
   tags={["React", "Express", "Node.js","Mongodb"]}
-  demoUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
+  LiveUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
+  codeUrl="https://github.com/VaishnavAmbilpur/Chatty"
+/></span>
+<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
+  title="Chatty"  
+  description="A Real-time Chat App made using Websockets"
+  imageUrl={Chatty}
+  tags={["React", "Node.js","Typescript","Websocket", "Tailwind CSS"]}
+  LiveUrl="https://chatty-psi-two.vercel.app/"
   codeUrl="https://github.com/VaishnavAmbilpur/Rock-Paper-scissors-"
 /></span></span>
 
