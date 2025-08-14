@@ -19,6 +19,7 @@ import { SiRender } from "react-icons/si";
 import { RiGithubLine } from "react-icons/ri";
 import { SiCplusplus } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
+import { SiSocketdotio } from 'react-icons/si';
 import { FaGit } from "react-icons/fa";
     import { Link } from "react-router-dom";
     import { LinkedinLogoIcon } from '@phosphor-icons/react';
@@ -109,6 +110,7 @@ const Skills = () => {
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><RiGithubLine size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiExpress size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaGit size={28}/></span></button>
+                                    <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiSocketdotio size={28}/></span></button>
                                   </div>
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
                             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
