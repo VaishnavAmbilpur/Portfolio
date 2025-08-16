@@ -83,7 +83,23 @@ const Projects = () => {
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Projects</span></span>
-<span className='con grid grid-cols-1 sm:grid-cols-3  justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
+<span className='con grid grid-cols-1 sm:grid-cols-3  justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
+  title="Chatty"  
+  description="A Real-time Chat App made using Websockets"
+  imageUrl={Chatty}
+  tags={["React", "Node.js","Typescript","Websocket", "Tailwind CSS"]}
+  LiveUrl="https://chatty-psi-two.vercel.app/"
+  codeUrl="https://github.com/VaishnavAmbilpur/Chatty "
+/></span>
+<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
+  title="Thinkbold"  
+  description="A simple, efficient notepad app built with the MERN stack for seamless note-taking."
+  imageUrl={Thinkbold}
+  tags={["React", "Express", "Node.js","Mongodb"]}
+  LiveUrl="https://thinkbold.onrender.com/ "
+  codeUrl="https://github.com/VaishnavAmbilpur/Thinkbold"
+/></span>
+<span className=' text-2xl md:text-4xl mb-7'><ProjectHolder
   title="Sky"
   description="A clean, user-friendly React-based weather app using OpenWeatherMap API "
   imageUrl={skyPre}
@@ -99,22 +115,8 @@ const Projects = () => {
   LiveUrl="https://rock-paper-scissors-ten-roan.vercel.app/"
   codeUrl="https://github.com/VaishnavAmbilpur/Rock-Paper-scissors-"
 /></span>
-<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
-  title="Thinkbold"  
-  description="A simple, efficient notepad app built with the MERN stack for seamless note-taking."
-  imageUrl={Thinkbold}
-  tags={["React", "Express", "Node.js","Mongodb"]}
-  LiveUrl="https://thinkbold.onrender.com/ "
-  codeUrl="https://github.com/VaishnavAmbilpur/Thinkbold"
-/></span>
-<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
-  title="Chatty"  
-  description="A Real-time Chat App made using Websockets"
-  imageUrl={Chatty}
-  tags={["React", "Node.js","Typescript","Websocket", "Tailwind CSS"]}
-  LiveUrl="https://chatty-psi-two.vercel.app/"
-  codeUrl="https://github.com/VaishnavAmbilpur/Chatty "
-/></span></span>
+
+</span>
 
                                     <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>  
                             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
