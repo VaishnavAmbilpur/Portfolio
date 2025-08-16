@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectHolder = ({ title, description, imageUrl, tags, LiveUrl, codeUrl }) => {
   return (
-    <div className="bg-zinc-950 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex flex-col h-full w-full max-w-xs">
+    <div className="bg-zinc-950 rounded-lg overflow-hidden shadow-sm hover:shadow-md font-Josefin transition-all duration-300 hover:-translate-y-0.5 flex flex-col h-full w-full max-w-xs">
       {/* Project Image - Smaller */}
       <div className="h-36 overflow-hidden">
         <img 
