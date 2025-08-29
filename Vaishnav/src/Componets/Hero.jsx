@@ -88,7 +88,8 @@ const Hero = () => {
           </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250 gap-4 md:mt-3 md:mx-30 text-red-50'>
             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Hey ,</span></span>
-            <span className='con m-1 flex justify-start'><span className='p-2 text-left md:text-xl w-200 tracking-wide leading-8'>I build web applications and solve problems every day. But when my code has more bugs than features and my patience hits O(n²) complexity, I know it's time to step away—whether that means mindless scrolling or briefly pretending I'm not a developer at all.
+            <span className='con m-1 flex justify-start'><span className='p-2 text-left md:text-xl w-200 tracking-wide leading-8'>Ask me what I do, and I’ll say, “I talk to computers until they do what I want.”
+It’s a thrilling mix of genius, frustration, and too much coffee.
             </span></span>
             <div className='min-h-fit w-80 mx-3 md:min-200 flex flex-row gap-4 items-center '>
               <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><SiCodeforces size={22} /></Link></button>
