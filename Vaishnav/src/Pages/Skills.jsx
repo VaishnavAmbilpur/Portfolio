@@ -21,6 +21,7 @@ import { SiCplusplus } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiSocketdotio } from 'react-icons/si';
 import { FaGit } from "react-icons/fa";
+import { SiTypescript } from 'react-icons/si';
     import { Link } from "react-router-dom";
     import { LinkedinLogoIcon } from '@phosphor-icons/react';
     import "../Componets/Hero.css"
@@ -87,7 +88,7 @@ const Skills = () => {
         <div className="md:flex flex-row " id='h'>
            <div className='flex mt-0 mx-8 md:mt-4'><div className="text-red-50 flex flex-row gap-8 mt-5 md:flex-col">
               <Link to="/"><div className='flex gap-1 theme-hover p-2 rounded-lg items-center'><HouseSimple size={`19`} weight="thin" /><span className='mt-1'>Home</span></div></Link>
-              <Link to="/TechStack">   <div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><Info size={19} weight="thin" /><span className='mt-1'>Info</span></div></Link>
+              <Link to="/TechStack">   <div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><Info size={19} weight="thin" /><span className='mt-1'>Skills</span></div></Link>
               <Link to="/Projects"><div className='flex gap-1  theme-hover p-2 rounded-lg items-center'><AppWindow size={19} weight="thin" /><span className='mt-1'>Projects</span></div></Link>
            </div>
         </div>
@@ -98,6 +99,7 @@ const Skills = () => {
                                 
                                   <div className='min-h-fit w-80 mx-3 md:min-200 grid grid-cols-4 md:flex flex-row gap-4 items-center '>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaNodeJs size={28}/></span></button>
+                                                                        <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiTypescript size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaCss3Alt size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaHtml5 size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><RiTailwindCssFill size={28}/></span></button>
