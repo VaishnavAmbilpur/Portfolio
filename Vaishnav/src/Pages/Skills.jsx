@@ -99,7 +99,7 @@ const Skills = () => {
                                 
                                   <div className='min-h-fit w-80 mx-3 md:min-200 grid grid-cols-4 md:flex flex-row gap-4 items-center '>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaNodeJs size={28}/></span></button>
-                                                                        <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiTypescript size={28}/></span></button>
+                                                                        <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><SiTypescript size={26}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaCss3Alt size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><FaHtml5 size={28}/></span></button>
                                     <button className='theme-hover p-2 rounded-lg transition-all flex justify-center'><span><RiTailwindCssFill size={28}/></span></button>
