@@ -94,7 +94,7 @@ It’s a thrilling mix of genius, frustration, and too much coffee.
             <div className='min-h-fit w-80 mx-3 md:min-200 flex flex-row gap-4 items-center '>
               <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><SiCodeforces size={22} /></Link></button>
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://leetcode.com/u/Dexter_Morgan_11/' target='blank'><SiLeetcode size={22} /></a></button>
-              <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://github.com/VaishnavAmbilpur'><FiGithub size={22} /></a></button>
+              <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://github.com/VaishnavAmbilpur'  target='blank'><FiGithub size={22} /></a></button>
               {/* <button className='p-2 theme-hover rounded-lg transition-all flex justify-between gap-1'><SiGoogledocs size={22} />Resume</button> */}
             </div>
             <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>
