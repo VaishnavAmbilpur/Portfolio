@@ -26,7 +26,7 @@ function MainContent({ showLoader,children}) {
           <AnimatedBackground />
       
        <div className="relative overflow-x-hidden z-10">
-            {children} {/* Each page handles its own background */}
+            {children}
           </div>
 
           <SmoothFollower />
