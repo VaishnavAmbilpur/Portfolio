@@ -14,6 +14,7 @@ import { SiGoogledocs } from "react-icons/si";
     import Thinkbold from "../assets/Thinkbold.png"
     import { LinkedinLogoIcon } from '@phosphor-icons/react';
     import Chatty from '../assets/Chatty.png'
+    import Roaster from "../assets/Roaster.png"
 const Projects = () => {
     
   useGSAP(()=>{
@@ -91,6 +92,14 @@ const Projects = () => {
   tags={["React", "Node.js","Typescript","Websocket", "Tailwind CSS"]}
   LiveUrl="https://chatty-psi-two.vercel.app/"
   codeUrl="https://github.com/VaishnavAmbilpur/Chatty "
+/></span>
+<span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
+  title="Roaster"  
+  description="A Next.js app where you enter your name, it's sent to the Gemini API, and you get a clever, funny roast about your name in return."
+  imageUrl={Roaster}
+  tags={["React", "Typescript", "Node.js","LLM"]}
+  LiveUrl="https://r-lpe4.vercel.app/"
+  codeUrl="https://github.com/VaishnavAmbilpur/R"
 /></span>
 <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
   title="Thinkbold"  
