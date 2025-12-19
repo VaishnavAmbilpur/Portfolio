@@ -14,6 +14,7 @@ import { SiGoogledocs } from "react-icons/si";
     import Thinkbold from "../assets/Thinkbold.png"
     import { LinkedinLogoIcon } from '@phosphor-icons/react';
     import Chatty from '../assets/Chatty.png'
+    import Cache from "../assets/Cache.png"
     import Roaster from "../assets/Roaster.png"
 const Projects = () => {
     
@@ -85,7 +86,19 @@ const Projects = () => {
         </div>
           <div className='w-100 text-sm mx-2 p-3 mt-10 break flex justify-items-start flex-col md:min-w-250  gap-4 md:mt-3 md:mx-30 text-red-50'>
                             <span className='con justify-start ml-2'><span className=' text-2xl md:text-4xl mb-7'>Projects</span></span>
-<span className='con grid grid-cols-1 sm:grid-cols-3  justify-start mr-2'><span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
+
+<span className='con grid grid-cols-1 sm:grid-cols-3  justify-start mr-2'>
+    <span className='text-2xl md:text-4xl mb-7 mr-2'>
+    <ProjectHolder
+      title="Cache"  
+      description="A place where you can store links from YouTube, Twitter, Drive and other platforms"
+      imageUrl={Cache}
+      tags={["React", "Node.js", "Typescript", "Tailwind CSS", "MongoDB", "Express"]}
+      LiveUrl="https://cache-e2ch.vercel.app/"
+      codeUrl="https://github.com/VaishnavAmbilpur/Cache"
+    />
+  </span>
+  <span className=' text-2xl md:text-4xl mb-7 mr-2' ><ProjectHolder
   title="Chatty"  
   description="A Real-time Chat App made using Websockets"
   imageUrl={Chatty}
