@@ -80,7 +80,7 @@ const Skills = () => {
         <div className='m-7 text-5xl  md:text-7xl tracking-widest'>
            <span className='min-h-fit min-w-fit animate gradient'><span className=''>Vaishnav</span></span>
             
-            <div className='me'> <div className='font-sans font-extrabold m-2 text-sm  w-fit tracking-widest transition delay-50 duration-300  md:text-sm text-red-50 hover:translate-x-1  transition-normal'>
+            <div className='me'> <div className='font-sans font-extrabold m-2 text-xs  w-fit tracking-widest transition delay-50 duration-300  md:text-sm text-red-50 hover:translate-x-1  transition-normal'>
               Developer & Problem Solver
             </div>  </div>
            </div>
