@@ -96,8 +96,8 @@ It’s a thrilling mix of genius, frustration, and too much coffee.
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://leetcode.com/u/Dexter_Morgan_11/' target='blank'><SiLeetcode size={22} /></a></button>
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://github.com/VaishnavAmbilpur'  target='blank'><FiGithub size={22} /></a></button>
            <a 
-  href='/CV-2.pdf' 
-  download='CV-Vaishnav' 
+  href='public/CV-2.pdf' 
+  download='CV-2.pdf' 
   className='p-2 theme-hover rounded-lg transition-all flex items-center gap-2'
 >
   <SiGoogledocs size={22} />
