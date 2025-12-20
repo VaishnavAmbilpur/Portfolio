@@ -95,7 +95,15 @@ It’s a thrilling mix of genius, frustration, and too much coffee.
               <button className='p-2 theme-hover rounded-lg transition-all'><Link to="/codeforces"><SiCodeforces size={22} /></Link></button>
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://leetcode.com/u/Dexter_Morgan_11/' target='blank'><SiLeetcode size={22} /></a></button>
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://github.com/VaishnavAmbilpur'  target='blank'><FiGithub size={22} /></a></button>
-              {/* <button className='p-2 theme-hover rounded-lg transition-all flex justify-between gap-1'><SiGoogledocs size={22} />Resume</button> */}
+           <a 
+  href='/CV-2.pdf' 
+  download='CV-Vaishnav' 
+  className='p-2 theme-hover rounded-lg transition-all flex items-center gap-2'
+>
+  <SiGoogledocs size={22} />
+  <span className='flex justify-center items-center pt-1'>Resume</span>
+</a>
+
             </div>
             <div className='min-h-0.5 w-80 mx-3 md:min-200 bg-amber-50'></div>
             <div className='min-h-0.5 w-80 mx-3 md:min-200 font-sans font-extralight text-xs tracking-widest'>
