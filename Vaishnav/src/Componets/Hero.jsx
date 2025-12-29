@@ -96,7 +96,7 @@ It’s a thrilling mix of genius, frustration, and too much coffee.
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://leetcode.com/u/Dexter_Morgan_11/' target='blank'><SiLeetcode size={22} /></a></button>
               <button className='p-2 theme-hover rounded-lg transition-all'><a href='https://github.com/VaishnavAmbilpur'  target='blank'><FiGithub size={22} /></a></button>
            <a 
-  href='https://drive.google.com/file/d/1z8GdnSib0ko2t3jU6hUbkLdpFvqdwo2D/view?usp=sharing' 
+  href='https://drive.google.com/file/d/1jqY5aIaYF-QnlLMdRvx8YwEr8C_k1cb_/view?usp=sharing' 
   className='p-2 theme-hover rounded-lg transition-all flex items-center gap-2'
 >
   <SiGoogledocs size={22} />
