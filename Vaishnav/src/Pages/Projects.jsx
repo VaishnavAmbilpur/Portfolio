@@ -94,7 +94,7 @@ const Projects = () => {
       description="A place where you can store links from YouTube, Twitter, Drive and other platforms"
       imageUrl={Cache}
       tags={["React", "Node.js", "Typescript", "Tailwind CSS", "MongoDB", "Express"]}
-      LiveUrl="https://cache-e2ch.vercel.app/"
+      LiveUrl="https://cache-fv9e.vercel.app/"
       codeUrl="https://github.com/VaishnavAmbilpur/Cache"
     />
   </span>
